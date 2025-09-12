@@ -1,0 +1,20 @@
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# data
+/data/*
+!data/faq/
+!data/faq/.gitkeep
+
+# logs
+/logs/*
+!.gitkeep
+
+# streamlit
+.streamlit/
