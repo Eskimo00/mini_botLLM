@@ -17,11 +17,6 @@ python -m venv .venv
 
 pip install -r requirements.txt
 
-# данные для RAG
-mkdir -p data/faq
-echo "# FAQ
-Это пример документа." > data/faq/example.md
-
 # (опционально для API)
 cp .env.example .env
 # открой .env и укажи OPENAI_API_KEY=sk-...
